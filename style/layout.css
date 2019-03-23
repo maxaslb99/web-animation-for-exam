@@ -218,21 +218,6 @@ p {
 }
 
 @media all and (max-width: 769px) {
-.spin , .word {
-  margin-left: 15vw;
-  width: 70vw;
-}
-
-.start {
-  width: 53vw;
-    height: 62vw;
-    margin-left: 22.5vw;
-    margin-top: 10vh;
-}
-
-.next , .lack {
-  margin-left: 34vw;
-}
 
 .text-1{
   position: absolute;
@@ -292,30 +277,6 @@ footer img {
 }
 }
 @media all and (max-width: 500px) {
-
-  .start {
-  width: 53vw;
-  height: 62vw;
-  margin-left: 22.5vw;
-  margin-top: 10vh;
-  }
-
-  .start  p {
-    font-size: 13px;
-  }
-
-  .next  p {
-    font-size: 13px;
-  }
-
-  .lack  p {
-    font-size: 13px;
-  }
-
-  .next , .lack {
-    margin-left: 34vw;
-  }
-
   .text-1 {
     position: absolute;
     z-index: 1110;
