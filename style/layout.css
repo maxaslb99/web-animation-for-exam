@@ -209,7 +209,6 @@ p {
   100% { transform: translate(0,0); }
 }
 
-
 .cards-collector {
   position: absolute;
   width: 100vw;
@@ -218,65 +217,120 @@ p {
 }
 
 @media all and (max-width: 769px) {
+  .marquee{
+    width: 100vw;
+    right: 0;
+  }
+  .marquee h1{
 
-.text-1{
-  position: absolute;
-  z-index: 1110;
-  font-weight: bolder;
-  right: 18vw;
-  bottom: 33vh;
-}
+  }
 
-.text-1 h1 {
-  font-size: 50px;
-  /* right: 20vw; */
-}
+  .marquee1{
+z-index: -100;
+  }
 
-.text-2 {
-  left: 56vw;
-}
+  .marquee1 h1{
 
-.content {
-  height: 100%;
-}
+  }
 
-.cards_collector {
-  margin-left: 20vw;
-}
+  .marquee2{
 
-.card {
-  position: fixed;
-  background-color: #000;
-  border-radius: 1.3vw;
-  border-color: #FF01FB;
-  border-width: 1.5px;
-  border-style: solid;
-  width: 9vw;
-  height: 14vw;
-  left: 2vw;
-  transition: 2s;
-  margin-top: -35vh;
-  margin-left: 43vh;
-  box-shadow: 0 0 5px #FF00F6;
-  transform: rotate(25deg);
-}
+  }
 
-.text-3 p , .text-4 p {
-  font-size: 15px;
-  color: #fff;
-}
+  .marquee2 h1{
 
-.text-3 {
-  margin-left: -13vw;
-}
+  }
+
+  .text-1{
+    position: absolute;
+    z-index: 1110;
+    font-weight: bolder;
+    left: 25vw;
+    top: 34vh;
+    width: 50vw;
+  }
+
+  .text-1 h1 {
+    font-size: 35px;
+    /* right: 20vw; */
+    color: #fff;
+  }
+
+  .text-2 {
+    left: 30vw;
+    top:40vh;
+    color: #fff;
+    width: 40vw;
+  }
+
+  .content {
+    height: 100%;
+  }
+
+  .cards_collector {
+    margin-left: 1vw;
+  }
+
+  .card {
+    position: fixed;
+    background-color: #000;
+    border-radius: 1.3vw;
+    border-color: #FF01FB;
+    border-width: 1.5px;
+    border-style: solid;
+    width: 9vw;
+    height: 14vw;
+    transition: 2s;
+    margin-top: -35vh;
+    margin-left: -1vh;
+    box-shadow: 0 0 5px #FF00F6;
+    transform: rotate(25deg);
+  }
+
+  .text-3 p , .text-4 p {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .text-3 {
+    margin-left: -5vw;
+    top: 85vh;
+  }
+  .text-4 {
+  transform: rotate(0);
+  top: 85vh;
+  left: 70vw;
+  }
 
 
-footer img {
-  margin-top: 87vh;
-  margin-left: 5vw;
-}
-}
+  }
+
 @media all and (max-width: 500px) {
+  .marquee{
+    width: 100vw;
+    right: 0;
+  }
+  .marquee h1{
+  font-size: 20px;
+  }
+
+  .marquee1{
+    width: 100vw;
+    right: 0;
+    left: 0;
+  }
+
+  .marquee1 h1{
+    font-size: 20px;
+  }
+
+  .marquee2{
+
+  }
+
+  .marquee2 h1{
+
+  }
   .text-1 {
     position: absolute;
     z-index: 1110;
@@ -310,7 +364,7 @@ footer img {
   .text-4 {
   transform: rotate(0);
   position: absolute;
-  top: 27vh;
+  top: 90vh;
   left: 61vw;
   }
 
