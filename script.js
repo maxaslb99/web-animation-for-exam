@@ -24,7 +24,7 @@ setTimeout(function(){
       $( ".content" ).css( {"opacity": "1"})
       $( ".text-1" ).css( {"opacity": "1"})
 
-  }, 1700);
+  }, 4700);
   setTimeout(function(){
       $( ".text-2" ).css( {"opacity": "1"})
 
@@ -33,15 +33,35 @@ setTimeout(function(){
       $( ".text-3" ).css( {"opacity": "1"})
       $( ".text-4" ).css( {"opacity": "1"})
 
-  }, 9000);
+  }, 10000);
 
-  let rand = (Math.random) * 10000
 
   setTimeout(function(){
 
-      $( ".text-1" ).css( {"opacity": "0"})
+    setInterval(function(){
 
-  }, rand);
+        $( ".text-1" ).css( {"opacity": "0"})
+
+    }, 100);
+    setInterval(function(){
+
+        $( ".text-1" ).css( {"opacity": "1"})
+
+    }, 70);
+
+  }, 13000);
+
+  setInterval(function(){
+
+   $( ".text-1" ).fadeOut(50)
+
+ }, 15000);
+
+ setInterval(function(){
+
+  $( ".marquee2" ).css( {"display": "inline"})
+
+}, 15000);
 
 
  generator = function (start_x, start_y, direction = 1, step = 3, y_step = 150){
