@@ -29,9 +29,7 @@ body {
   margin-top: -30vh;
   box-shadow:0 0 5px #FF00F6;
   transition: 1s;
-
 }
-
 
 .content {
   font-family: 'Montserrat', sans-serif;
@@ -45,7 +43,7 @@ body {
 }
 
 .content p {
-    color: #fff;
+  color: #fff;
 }
 
 .mini p {
@@ -61,10 +59,10 @@ body {
 
 .text-1  {
   position: absolute;
-  left: 39vw;
+  left: 35vw;
   top: 29vh;
   z-index: 1110;
-  width: 22vw;
+  width: 30vw;
   text-align: center;
   opacity: 0;
   color: #fff;
@@ -79,7 +77,6 @@ body {
   text-align: center;
   opacity: 0;
 }
-
 
 .text-2 p {
   font-size: 15px;
@@ -137,8 +134,6 @@ p {
   font-size: 50px;
   padding-top: 8px;
   padding-bottom: 7px;
-  /*font-family: 'Shadows Into Light', cursive;*/
-  /* font-family: 'Permanent Marker', cursive; */
 }
 
 @keyframes marquee {
@@ -168,14 +163,13 @@ p {
   font-size: 50px;
   padding-top: 8px;
   padding-bottom: 7px;
-  /*font-family: 'Shadows Into Light', cursive;*/
-  /* font-family: 'Permanent Marker', cursive; */
 }
 
 @keyframes marquee1 {
   50%   { transform: translate(-50%, 0); }
   100% { transform: translate(0,0); }
 }
+
 .marquee2 {
   overflow: hidden;
   white-space: nowrap;
@@ -184,7 +178,6 @@ p {
   width: 30vw;
   right: 35vw;
   bottom: 66vh;
-  /* background-color: #fff; */
   display: none;
   z-index: -100;
 }
@@ -201,7 +194,6 @@ p {
   padding-top: 8px;
   padding-bottom: 7px;
   text-shadow: #FF01FB 0 0 20px;
-
 }
 
 @keyframes marquee2 {
@@ -217,31 +209,16 @@ p {
 }
 
 @media all and (max-width: 769px) {
-  .marquee{
+  .marquee {
     width: 100vw;
     right: 0;
   }
-  .marquee h1{
 
+  .marquee1 {
+    z-index: -100;
   }
 
-  .marquee1{
-z-index: -100;
-  }
-
-  .marquee1 h1{
-
-  }
-
-  .marquee2{
-
-  }
-
-  .marquee2 h1{
-
-  }
-
-  .text-1{
+  .text-1 {
     position: absolute;
     z-index: 1110;
     font-weight: bolder;
@@ -252,7 +229,6 @@ z-index: -100;
 
   .text-1 h1 {
     font-size: 35px;
-    /* right: 20vw; */
     color: #fff;
   }
 
@@ -296,41 +272,34 @@ z-index: -100;
     margin-left: -5vw;
     top: 85vh;
   }
+
   .text-4 {
   transform: rotate(0);
   top: 85vh;
   left: 70vw;
   }
-
-
-  }
+}
 
 @media all and (max-width: 500px) {
-  .marquee{
+  .marquee {
     width: 100vw;
     right: 0;
   }
-  .marquee h1{
+
+  .marquee h1 {
   font-size: 20px;
   }
 
-  .marquee1{
+  .marquee1 {
     width: 100vw;
     right: 0;
     left: 0;
   }
 
-  .marquee1 h1{
+  .marquee1 h1 {
     font-size: 20px;
   }
 
-  .marquee2{
-
-  }
-
-  .marquee2 h1{
-
-  }
   .text-1 {
     position: absolute;
     z-index: 1110;
@@ -342,7 +311,6 @@ z-index: -100;
   .text-1 h1 {
     font-size: 50px;
     margin-left: 6vw;
-    /* right: 20vw; */
   }
 
   .text-2 {
@@ -379,7 +347,6 @@ z-index: -100;
   .mini2 p {
     font-size: 8px;
     font-family: 'Lato', sans-serif;
-
   }
 
   .cards_collector {
@@ -389,7 +356,6 @@ z-index: -100;
   .text-2 p, .text-3 p, .text-4 p {
     font-size: 9px;
   }
-
 
   .card {
     position: fixed;
@@ -406,20 +372,14 @@ z-index: -100;
     margin-left: -1vh;
     box-shadow: 0 0 5px #FF00F6;
     transform: rotate(50deg);
-    }
+  }
 
-  .text-3 p , .text-4 p {
+   .text-3 p , .text-4 p {
     font-size: 10px;
     color: #fff;
-  }
+   }
 
   .text-3 {
     margin-left: -13vw;
-  }
-
-  footer img {
-    margin-top: 90vh;
-    margin-left: 5vw;
-    width: 15vw;
   }
 }
