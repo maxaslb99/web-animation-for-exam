@@ -1,3 +1,4 @@
+generator(100, 120, -1)
 setTimeout(function(){
   $( ".content" ).css( {"display": "block",
                         "opacity": "0"})
