@@ -1,14 +1,4 @@
 setTimeout(function(){
-
-  $( ".word" ).css( "transform", "rotate(20deg)" )
-  $( ".word" ).css( {"transition": "5s"} )
-  generator(100, 120, -1)
-  setTimeout(function(){
-  $( ".word" ).css( {"opacity": "0"} )
-}, 1000);
-}, 3000);
-
-setTimeout(function(){
   $( ".content" ).css( {"display": "block",
                         "opacity": "0"})
   $( ".content" ).css( {"transition": "5s"})
@@ -17,50 +7,40 @@ setTimeout(function(){
   $( ".text-4" ).css( {"transition": "5s"})
 }, 100);
 
-
-
-
-  setTimeout(function(){
+setTimeout(function(){
       $( ".content" ).css( {"opacity": "1"})
       $( ".text-1" ).css( {"opacity": "1"})
+}, 4700);
 
-  }, 4700);
-  setTimeout(function(){
-      $( ".text-2" ).css( {"opacity": "1"})
+setTimeout(function(){
+  $( ".text-2" ).css( {"opacity": "1"})
+}, 8000);
 
-  }, 8000);
-  setTimeout(function(){
-      $( ".text-3" ).css( {"opacity": "1"})
-      $( ".text-4" ).css( {"opacity": "1"})
+setTimeout(function(){
+  $( ".text-3" ).css( {"opacity": "1"})
+  $( ".text-4" ).css( {"opacity": "1"})
 
-  }, 10000);
+}, 10000);
 
 
-  setTimeout(function(){
-
-    setInterval(function(){
-
-        $( ".text-1" ).css( {"opacity": "0"})
-
-    }, 100);
-    setInterval(function(){
-
-        $( ".text-1" ).css( {"opacity": "1"})
-
-    }, 70);
-
-  }, 13000);
+setTimeout(function(){
 
   setInterval(function(){
+      $( ".text-1" ).css( {"opacity": "0"})
+  }, 100);
 
-   $( ".text-1" ).fadeOut(50)
+  setInterval(function(){
+      $( ".text-1" ).css( {"opacity": "1"})
+  }, 70);
 
+}, 13000);
+
+setInterval(function(){
+  $( ".text-1" ).fadeOut(50)
  }, 15000);
 
  setInterval(function(){
-
   $( ".marquee2" ).css( {"display": "inline"})
-
 }, 15000);
 
 
