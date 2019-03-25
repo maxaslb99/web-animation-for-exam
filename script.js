@@ -13,9 +13,10 @@ generatorLine = function() {
 
   let step = 6
 
-  if (width < mobileWidth){
-    step = 12
+  if (width < mobileWidth) {
+    step = 20
   }
+
   let direction = 1
 
   let x = 1000
@@ -24,22 +25,6 @@ generatorLine = function() {
   let delay = 0
   let delay_step = 27
 
-  // while (x < 600) {
-  //   y = a * x + c
-  //   let x_real = x * width/1000
-  //   let y_real = y * height/1000
-  //
-  //   let new_card = $("<div class='card'></div>")
-  //   new_card.css({"top": y_real + "px",
-  //                "left": x_real + "px",
-  //               "display": "none"})
-  //   $( ".cards-collector" ).append(new_card)
-  //   new_card.delay(delay).fadeIn(0)
-  //
-  //   delay = delay + delay_step
-  //   x = x + step * direction
-  // }
-  //c = y - a*x
 
   a = 0.65
   direction = -1
