@@ -216,6 +216,13 @@ p {
 
   .marquee1 {
     z-index: -100;
+    width: 43vw;
+  }
+
+  .marquee2 {
+    width: 41vw;
+    right: 29.5vw;
+    bottom: 62vh;
   }
 
   .text-1 {
@@ -234,7 +241,7 @@ p {
 
   .text-2 {
     left: 30vw;
-    top:40vh;
+    top: 40vh;
     color: #fff;
     width: 40vw;
   }
@@ -257,10 +264,10 @@ p {
     width: 9vw;
     height: 14vw;
     transition: 2s;
-    margin-top: -35vh;
-    margin-left: -1vh;
+    margin-top: -85vh;
+    margin-left: 18vh;
     box-shadow: 0 0 5px #FF00F6;
-    transform: rotate(25deg);
+    transform: 0;
   }
 
   .text-3 p , .text-4 p {
@@ -281,105 +288,115 @@ p {
 }
 
 @media all and (max-width: 500px) {
-  .marquee {
-    width: 100vw;
-    right: 0;
-  }
 
-  .marquee h1 {
+.marquee {
+  width: 100vw;
+  right: 0;
+}
+
+.marquee h1 {
+font-size: 20px;
+}
+
+.marquee1 {
+  width: 100vw;
+  right: 0;
+  left: 0;
+}
+
+.marquee1 h1 {
   font-size: 20px;
-  }
+}
 
-  .marquee1 {
-    width: 100vw;
-    right: 0;
-    left: 0;
-  }
+.marquee2 {
+  right: 0;
+  width: 100vw;
+  bottom: 55vh;
+}
 
-  .marquee1 h1 {
-    font-size: 20px;
-  }
-
-  .text-1 {
-    position: absolute;
-    z-index: 1110;
-    font-weight: bolder;
-    right: 18vw;
-    bottom: 33vh;
-  }
-
-  .text-1 h1 {
-    font-size: 50px;
-    margin-left: 6vw;
-  }
-
-  .text-2 {
-    left: 61vw;
-    margin-top: 34vh;
-  }
-
-  .text-2 p {
-    font-size: 10px;
-    width: 40vw;
-    margin-left: -11vw;
-  }
-
-  .text-3 {
-    margin-left: 2vw;
-    margin-top: 20vw;
-  }
-
-  .text-4 {
-  transform: rotate(0);
+.text-1 {
   position: absolute;
-  top: 90vh;
-  left: 61vw;
-  }
+  z-index: 1110;
+  font-weight: bolder;
+  left: 24vw;
+  top: 43vh;
 
-  .text-4 p {
-    width: 30vw;
-  }
+}
 
-  .content {
-    height: 100%;
-  }
+.text-1 h1 {
+  font-size: 14px;
+  margin-left: 4vw;
+}
 
-  .mini2 p {
-    font-size: 8px;
-    font-family: 'Lato', sans-serif;
-  }
+.text-2 {
+  left: 42vw;
+  font-size: 9px;
+  top: 47vh;
+}
 
-  .cards_collector {
-    margin-left: 20vw;
-  }
+.text-2 p {
+  font-size: 9px;
+  width: 40vw;
+  margin-left: -11vw;
+}
 
-  .text-2 p, .text-3 p, .text-4 p {
-    font-size: 9px;
-  }
+.text-2 .mini  {
+  font-size: 7px;
+}
 
-  .card {
-    position: fixed;
-    background-color: #000;
+.text-3 {
+  margin-left: 37vw;
+  top: 10vh;
+}
+
+.text-4 {
+transform: rotate(0);
+position: absolute;
+top: 90vh;
+left: 61vw;
+}
+
+.text-4 p {
+  width: 30vw;
+  font-size: 8px;
+}
+
+.content {
+  height: 100%;
+}
+
+.mini2 p {
+  font-size: 8px;
+  font-family: 'Lato', sans-serif;
+}
+
+.cards_collector {
+  margin-left: 20vw;
+}
+
+.text-2 p, .text-3 p, .text-4 p {
+  font-size: 9px;
+}
+
+.card {
     border-radius: 1.5vw;
-    border-color: #FF01FB;
+
     border-width: 0.5px;
-    border-style: solid;
+
     width: 12vw;
     height: 18vw;
-    left: -5vw;
-    transition: 2s;
-    margin-top: -31vh;
-    margin-left: -1vh;
+
+    transition: 3s;
+    margin-top: -23vh;
+    margin-left: -34vh;
     box-shadow: 0 0 5px #FF00F6;
     transform: rotate(50deg);
-  }
 
-   .text-3 p , .text-4 p {
-    font-size: 10px;
-    color: #fff;
-   }
+}
 
-  .text-3 {
-    margin-left: -13vw;
-  }
+ .text-3 p , .text-4 p {
+  font-size: 9px;
+  color: #fff;
+ }
+
 }
