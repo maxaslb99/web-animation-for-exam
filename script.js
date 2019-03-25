@@ -13,56 +13,97 @@ generatorLine = function() {
 
   let step = 6
 
-  if (width < mobileWidth) {
+  if (width < mobileWidth){
     step = 20
   }
-
   let direction = 1
 
-  let x = 1000
-  let y
+  if ((width > 500) && (width < 1300)){
+    let x = -400
+    let y = 900
 
-  let delay = 0
-  let delay_step = 27
+    let delay = 0
+    let delay_step = 40
 
+    while (x < 1100) {
+      let x_real = x * width/1000
+      let y_real = y * height/1000
 
-  a = 0.65
-  direction = -1
+      let new_card = $("<div class='card'></div>")
+      new_card.css({"top": y_real + "px",
+                   "left": x_real + "px",
+                  "display": "none"})
+      $( ".cards-collector" ).append(new_card)
+      new_card.delay(delay).fadeIn(0)
 
-  while (x > -30) {
-    y = a * x + c
-    let x_real = x * width/1000
-    let y_real = y * height/1000
+      delay = delay + delay_step
+      x = x + step * direction
+    }
 
-    let new_card = $("<div class='card'></div>")
-    new_card.css({"top": y_real + "px",
-                 "left": x_real + "px",
-                "display": "none"})
-    $( ".cards-collector" ).append(new_card)
-    new_card.delay(delay).fadeIn(0)
+  } else {
 
-    delay = delay + delay_step
-    x = x + step * direction
-  }
+    let x = 1000
+    let y
 
-  a = -0.4
-  c = y - a*x
-  direction = 1
+    let delay = 0
+    let delay_step = 27
 
-  while (x < 950) {
-    y = a * x + c
-    let x_real = x * width/1000
-    let y_real = y * height/1000
+    // while (x < 600) {
+    //   y = a * x + c
+    //   let x_real = x * width/1000
+    //   let y_real = y * height/1000
+    //
+    //   let new_card = $("<div class='card'></div>")
+    //   new_card.css({"top": y_real + "px",
+    //                "left": x_real + "px",
+    //               "display": "none"})
+    //   $( ".cards-collector" ).append(new_card)
+    //   new_card.delay(delay).fadeIn(0)
+    //
+    //   delay = delay + delay_step
+    //   x = x + step * direction
+    // }
+    //c = y - a*x
 
-    let new_card = $("<div class='card'></div>")
-    new_card.css({"top": y_real + "px",
-                 "left": x_real + "px",
-                "display": "none"})
-    $( ".cards-collector" ).append(new_card)
-    new_card.delay(delay).fadeIn(0)
+    a = 0.65
+    direction = -1
 
-    delay = delay + delay_step
-    x = x + step * direction
+    while (x > -30) {
+      y = a * x + c
+      let x_real = x * width/1000
+      let y_real = y * height/1000
+
+      let new_card = $("<div class='card'></div>")
+      new_card.css({"top": y_real + "px",
+                   "left": x_real + "px",
+                  "display": "none"})
+      $( ".cards-collector" ).append(new_card)
+      new_card.delay(delay).fadeIn(0)
+
+      delay = delay + delay_step
+      x = x + step * direction
+    }
+
+    a = -0.4
+    c = y - a*x
+    direction = 1
+
+    while (x < 950) {
+      y = a * x + c
+      let x_real = x * width/1000
+      let y_real = y * height/1000
+
+      let new_card = $("<div class='card'></div>")
+      new_card.css({"top": y_real + "px",
+                   "left": x_real + "px",
+                  "display": "none"})
+      $( ".cards-collector" ).append(new_card)
+      new_card.delay(delay).fadeIn(0)
+
+      delay = delay + delay_step
+      x = x + step * direction
+    }
+
   }
 
 }
@@ -132,6 +173,7 @@ generatorSpiral = function() {
     // }
 
   } while ((x < 1200) && (x > -200) && (y < 1200) && (y > -200))
+
 }
 
  generatorParabola = function (start_x = 100, start_y = 120, direction = -1, step = 3){

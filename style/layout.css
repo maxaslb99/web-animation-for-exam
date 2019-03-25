@@ -24,7 +24,7 @@ body {
   border-style: solid;
   width: 5vw;
   height: 9vw;
-  left: 2vw;
+  left: 20vw;
   transition: 2s;
   margin-top: -30vh;
   box-shadow:0 0 5px #FF00F6;
@@ -59,7 +59,7 @@ body {
 
 .text-1  {
   position: absolute;
-  left: 35vw;
+  left: 35.5vw;
   top: 29vh;
   z-index: 1110;
   width: 30vw;
@@ -76,6 +76,8 @@ body {
   width: 22vw;
   text-align: center;
   opacity: 0;
+  background-color: black;
+  padding: 1vh;
 }
 
 .text-2 p {
@@ -118,7 +120,7 @@ p {
   background-color: #000;
   position: absolute;
   width: 30vw;
-  right: 5vw;
+  right: 7vw;
   top: 20vh;
   z-index: -100;
 }
@@ -131,7 +133,7 @@ p {
   width: auto;
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 45px;
   padding-top: 8px;
   padding-bottom: 7px;
 }
@@ -160,7 +162,7 @@ p {
   width: auto;
   font-family: 'Rubik Mono One', sans-serif;
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 45px;
   padding-top: 8px;
   padding-bottom: 7px;
 }
@@ -176,10 +178,10 @@ p {
   background-color: #000;
   position: absolute;
   width: 30vw;
-  right: 35vw;
+  right: 34vw;
   bottom: 66vh;
   display: none;
-  z-index: -100;
+  z-index: 2000;
 }
 
 .marquee2 h1 {
@@ -213,10 +215,22 @@ p {
     width: 100vw;
     right: 0;
   }
+  .marquee1 h1 {
+    font-size: 19px;
+  }
 
   .marquee1 {
     z-index: -100;
     width: 43vw;
+    bottom: 29vh;
+  }
+
+  .marquee h1 {
+    font-size: 19px;
+  }
+
+  .marquee2 h1 {
+    font-size: 19px;
   }
 
   .marquee2 {
@@ -232,6 +246,7 @@ p {
     left: 25vw;
     top: 34vh;
     width: 50vw;
+    background-color: black;
   }
 
   .text-1 h1 {
@@ -244,6 +259,7 @@ p {
     top: 40vh;
     color: #fff;
     width: 40vw;
+    background-color: black;
   }
 
   .content {
@@ -257,17 +273,15 @@ p {
   .card {
     position: fixed;
     background-color: #000;
-    border-radius: 1.3vw;
-    border-color: #FF01FB;
-    border-width: 1.5px;
+    border-radius: 1.2vw;
+    border-width: 1.2px;
     border-style: solid;
-    width: 9vw;
-    height: 14vw;
+    width: 7vw;
+    height: 11vw;
     transition: 2s;
     margin-top: -85vh;
     margin-left: 18vh;
-    box-shadow: 0 0 5px #FF00F6;
-    transform: 0;
+    transform: rotate(50deg);
   }
 
   .text-3 p , .text-4 p {
