@@ -295,7 +295,7 @@ p {
 }
 
 .marquee h1 {
-font-size: 20px;
+font-size: 15px;
 }
 
 .marquee1 {
@@ -305,7 +305,7 @@ font-size: 20px;
 }
 
 .marquee1 h1 {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .marquee2 {
@@ -314,11 +314,15 @@ font-size: 20px;
   bottom: 55vh;
 }
 
+.marquee2 h1 {
+  font-size: 15px;
+}
+
 .text-1 {
   position: absolute;
   z-index: 1110;
   font-weight: bolder;
-  left: 24vw;
+  left: 23vw;
   top: 43vh;
 
 }
