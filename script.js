@@ -115,9 +115,6 @@ generatorSpiral = function() {
 
   do  {
     let new_card = $("<div class='card'></div>")
-
-
-
     var a = x - x_last;
     var b = y - y_last;
 
