@@ -329,8 +329,11 @@ font-size: 20px;
 }
 
 .text-2 {
+  left: 25vw;
+  font-size: 9px;
+  top: 47vh;
   width: 50vw;
-  margin-left: -17vw;
+
 }
 
 .text-2 p {
