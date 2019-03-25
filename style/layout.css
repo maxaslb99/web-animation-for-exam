@@ -381,22 +381,18 @@ left: 61vw;
 }
 
 .card {
-    border-radius: 1.5vw;
-
-    border-width: 0.5px;
-
-    width: 12vw;
-    height: 18vw;
-
-    transition: 3s;
-    margin-top: -23vh;
-    margin-left: -34vh;
-    box-shadow: 0 0 5px #FF00F6;
+  border-radius: 1.5vw;
+  border-width: 0.5px;
+  width: 12vw;
+  height: 18vw;
+  transition: 3s;
+  margin-top: -23vh;
+  margin-left: -34vh;
+  box-shadow: 0 0 5px #FF00F6;
 }
 
  .text-3 p , .text-4 p {
   font-size: 9px;
   color: #fff;
  }
-
 }
