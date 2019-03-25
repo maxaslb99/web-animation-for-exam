@@ -18,12 +18,12 @@ body {
 .card {
   position: absolute;
   background-color: #000;
-  border-radius: 1.5vw;
+  border-radius: 1.4vw;
   border-color: #FF01FB;
   border-width: 2px;
   border-style: solid;
-  width: 6vw;
-  height: 10vw;
+  width: 5vw;
+  height: 9vw;
   left: 2vw;
   transition: 2s;
   margin-top: -30vh;
