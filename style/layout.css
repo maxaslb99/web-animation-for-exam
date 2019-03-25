@@ -339,7 +339,7 @@ font-size: 20px;
 .text-2 p {
   font-size: 9px;
   width: 54vw;
-  margin-left: -3vw;
+  margin-left: -15vw;
 }
 
 .text-2 .mini  {
@@ -392,7 +392,6 @@ left: 61vw;
     margin-top: -23vh;
     margin-left: -34vh;
     box-shadow: 0 0 5px #FF00F6;
-
 }
 
  .text-3 p , .text-4 p {
