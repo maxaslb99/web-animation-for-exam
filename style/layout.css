@@ -258,7 +258,6 @@ p {
     top: 38vh;
     color: #fff;
     width: 45vw;
-    background-color: black;
   }
 
   .text-2 p {
@@ -341,7 +340,6 @@ font-size: 15px;
   font-weight: bolder;
   left: 24vw;
   top: 39vh;
-
 }
 
 .text-1 h1 {
@@ -409,7 +407,6 @@ left: 61vw;
   transition: 3s;
   margin-top: -23vh;
   margin-left: -34vh;
-  box-shadow: 0 0 5px #FF00F6;
 }
 
  .text-3 p , .text-4 p {
