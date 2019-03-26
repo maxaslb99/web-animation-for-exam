@@ -76,7 +76,6 @@ body {
   width: 22vw;
   text-align: center;
   opacity: 0;
-  background-color: black;
   padding: 1vh;
 }
 
@@ -181,7 +180,7 @@ p {
   right: 34vw;
   bottom: 66vh;
   display: none;
-  z-index: 2000;
+  z-index: -100;
 }
 
 .marquee2 h1 {
@@ -244,22 +243,26 @@ p {
     z-index: 1110;
     font-weight: bolder;
     left: 25vw;
-    top: 34vh;
+    top: 33.5vh;
     width: 50vw;
     background-color: black;
   }
 
   .text-1 h1 {
-    font-size: 35px;
+    font-size: 38px;
     color: #fff;
   }
 
   .text-2 {
-    left: 30vw;
-    top: 40vh;
+    left: 26vw;
+    top: 38vh;
     color: #fff;
-    width: 40vw;
+    width: 45vw;
     background-color: black;
+  }
+
+  .text-2 p {
+    font-size: 20px;
   }
 
   .content {
@@ -336,7 +339,7 @@ font-size: 15px;
   position: absolute;
   z-index: 1110;
   font-weight: bolder;
-  left: 23vw;
+  left: 24vw;
   top: 43vh;
 
 }
@@ -347,9 +350,9 @@ font-size: 15px;
 }
 
 .text-2 {
-  left: 38vw;
+  left: 37.5vw;
   font-size: 9px;
-  top: 47vh;
+  top: 46vh;
   width: 50vw;
 
 }
