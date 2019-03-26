@@ -328,7 +328,7 @@ font-size: 15px;
 .marquee2 {
   right: 0;
   width: 100vw;
-  bottom: 55vh;
+  bottom: 59vh;
 }
 
 .marquee2 h1 {
@@ -340,7 +340,7 @@ font-size: 15px;
   z-index: 1110;
   font-weight: bolder;
   left: 24vw;
-  top: 43vh;
+  top: 39vh;
 
 }
 
@@ -352,7 +352,7 @@ font-size: 15px;
 .text-2 {
   left: 37.5vw;
   font-size: 9px;
-  top: 46vh;
+  top: 42vh;
   width: 50vw;
 
 }
